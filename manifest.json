@@ -1,0 +1,19 @@
+{
+    "name": "QiitaStockNumber",
+    "version": "1.0.0",
+    "manifest_version": 2,
+    "description": "Qiitaのストック数を表示させる",
+    "icons": {
+        "16": "img/icon_16.png",
+        "48": "img/icon_48.png",
+        "128": "img/icon_128.png"
+    },
+    "content_scripts": [
+        {
+            "matches": ["http://qiita.com/*", "https://qiita.com/*"],
+            "js": ["js/jquery-3.1.1.min.js", 
+                   "js/content.js"],
+            "run_at": "document_idle"
+        }
+    ]
+}

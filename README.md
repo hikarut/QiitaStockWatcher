@@ -1,1 +1,1 @@
-# QiitaStockWatcher
+# GetQiitaStock
